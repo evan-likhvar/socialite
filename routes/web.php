@@ -13,7 +13,7 @@ Route::get('/person-space', function () {
 
 
 
-Route::get('/', 'UnrestrictedArea\StartPageController@startPage')->middleware('guest');
+Route::get('/', 'UnrestrictedArea\StartPageController@startPage')->middleware('guest','locale');
 
 
 Route::post('login/github', 'Service\ChangeLocaleController@changeLocale')->name('change-locale');

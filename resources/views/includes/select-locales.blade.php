@@ -1,1 +1,2 @@
-<select class="uk-select">@foreach($locales as $locale)<option value="{{$locale}}">{{$locale}}</option>@endforeach</select>
+<select id="locale-select-list" class="uk-select" name="locale" onchange="document.getElementById('change-l').submit();">
+    @foreach($locales as $locale)<option {{ app()->getLocale() == $locale ? 'selected' : '' }} value="{{$locale}}">{{$locale}}</option>@endforeach</select>

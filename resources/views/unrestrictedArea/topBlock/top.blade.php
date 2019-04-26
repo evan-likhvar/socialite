@@ -1,8 +1,8 @@
 <div>
     <div class="uk-tile uk-tile-muted">
-        <form>{!!$locales!!}</form>
+        <form id="change-l" action="{{ route('change-locale') }}" method="POST">
+            @csrf
+            {!!$locales!!}
+        </form>
     </div>
-    <form id="change-locale" action="{{ route('change-locale') }}" method="POST" style="display: none;">
-        @csrf
-    </form>
 </div>
