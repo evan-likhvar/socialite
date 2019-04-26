@@ -1,0 +1,1 @@
+<select class="uk-select">@foreach($locales as $locale)<option value="{{$locale}}">{{$locale}}</option>@endforeach</select>
