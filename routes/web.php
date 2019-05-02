@@ -1,5 +1,8 @@
 <?php
 
+Auth::routes();
+
+
 //Route::get('/', function () {
 //    app()->setLocale('ru');
 //    return view('auth.app');
@@ -13,15 +16,6 @@ Route::get('/person-space', function () {
 
 
 
-Route::get('/', 'UnrestrictedArea\StartPageController@startPage')->middleware('guest','locale');
-
-
-Route::post('login/github', 'Service\ChangeLocaleController@changeLocale')->name('change-locale');
-
-
-
-
-
 
 
 
@@ -31,6 +25,5 @@ Route::get('login/github/callback', 'Git\LoginGitController@handleProviderCallba
 
 
 
-Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

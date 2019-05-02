@@ -17,12 +17,12 @@ class UnrestrictedController extends Controller
 
         //$this->siteLocales();
 
-
-
-        //$this->vars = Arr::add($this->vars,'title',$this->title);
         $navigation = view('unrestrictedArea.topBlock.top')->with('locales',$this->siteLocales())->render();
         $this->vars = Arr::add($this->vars,'navigation',$navigation);
-        //$this->vars = Arr::add($this->vars,'content',$this->content);
+
+
+        //dd($this->vars);
+
         return view($this->template)->with($this->vars);
     }
 
