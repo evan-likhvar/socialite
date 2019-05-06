@@ -21,7 +21,7 @@
                             <a class="uk-link-text uk-position-center"  href="">{{ __('unrestricted-top-block.people_nearby') }}</a>
                         </div>
                         <div>
-                            <a class="uk-button uk-button-default" href="#">{{ __('auth.login_button') }}</a>
+                            <a class="uk-button uk-button-default" href="{{ route('login') }}">{{ __('auth.login_button') }}</a>
                         </div>
                     </div>
                 </div>
