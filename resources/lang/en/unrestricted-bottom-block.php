@@ -2,7 +2,9 @@
 
 return [
 
-    'encounters' => 'encounters',
-    'people_nearby' => 'people nearby',
-    'sign_in' => 'sign in',
+    'about' => 'about',
+    'terms' => 'terms',
+    'privacy' => 'privacy',
+    'quick_link'=>'quick link',
+    'help'=>'help'
 ];

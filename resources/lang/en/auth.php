@@ -26,6 +26,7 @@ return [
     'login_title' => 'Sign in',
     'remember_me_checkbox' => 'Remember me',
     'login_button' => 'Sign in',
+    'logout_button' => 'Sign out',
     'forgot_your_password_button' => 'Forgot your password?',
 
 ];

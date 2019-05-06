@@ -9,8 +9,9 @@ class StartPageController extends UnrestrictedController
 {
     public function startPage()
     {
-        $content = view('unrestrictedArea.startPage.startPage')->render();
-        $this->vars = Arr::add($this->vars,'content',$content);
+        $this->vars = Arr::add($this->vars, 'navigation', view('unrestrictedArea.topBlock.top')->with('locales', $this->siteLocales())->render());
+        $this->vars = Arr::add($this->vars, 'content', view('unrestrictedArea.contents.startPage.startPage')->render());
+
         return $this->renderOutput();
     }
 }

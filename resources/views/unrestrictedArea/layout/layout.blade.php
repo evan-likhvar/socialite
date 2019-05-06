@@ -8,20 +8,12 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-
 @yield('navigation')
-
 <div class="uk-section uk-section-muted uk-padding-remove-vertical" uk-height-viewport="expand: true">
-    <div class="uk-container">
-@yield('content')
-    </div>
+    @yield('content')
 </div>
 <div class="uk-section uk-section-muted uk-padding-remove-vertical">
-    <div class="uk-container">
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-    </div>
+    @yield('bottom')
 </div>
 <script src="{{ asset('js/app.js') }}" defer></script>
 </body>

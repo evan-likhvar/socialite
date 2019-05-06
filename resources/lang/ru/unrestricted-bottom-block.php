@@ -1,10 +1,9 @@
 <?php
 
 return [
-
-    'about' => 'about',
-    'terms' => 'terms',
-    'privacy' => 'privacy',
-    'quick_link'=>'quick link',
-    'help'=>'help'
+    'about' => 'о нас',
+    'terms' => 'условия',
+    'privacy' => 'конфиденциальность',
+    'quick_link'=>'быстрые ссылки',
+    'help'=>'помощь'
 ];

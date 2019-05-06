@@ -29,5 +29,6 @@ return [
     'login_title' => 'Логин',
     'remember_me_checkbox' => 'Запомнить меня',
     'login_button' => 'Войти',
+    'logout_button' => 'Выйти',
     'forgot_your_password_button' => 'Забыли пароль?',
 ];

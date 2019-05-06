@@ -10,4 +10,9 @@
     {!! $content !!}
 @endsection
 @endif
+@if(!empty($bottom))
+@section('bottom')
+    {!! $bottom !!}
+@endsection
+@endif
 

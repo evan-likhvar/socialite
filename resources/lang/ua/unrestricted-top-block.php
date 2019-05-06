@@ -1,8 +1,9 @@
 <?php
 
 return [
-
-    'encounters' => 'знакомства',
-    'people_nearby' => 'люди рядом',
-    'sign_in' => 'войти',
+    'site_name' =>'наш сайт',
+    'encounters' => 'знайомства',
+    'people_nearby' => 'люди поблизу',
+    'join' => 'Приєднатися',
+    'or' => 'або',
 ];

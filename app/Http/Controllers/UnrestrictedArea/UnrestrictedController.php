@@ -12,21 +12,15 @@ class UnrestrictedController extends Controller
     protected $vars;
 
 
-    protected function renderOutput() {
-
-
-        //$this->siteLocales();
-
-        $navigation = view('unrestrictedArea.topBlock.top')->with('locales',$this->siteLocales())->render();
-        $this->vars = Arr::add($this->vars,'navigation',$navigation);
-
-
+    protected function renderOutput()
+    {
         //dd($this->vars);
+        $this->vars = Arr::add($this->vars, 'bottom', view('unrestrictedArea.bottom.bottom')->with('locales', $this->siteLocales())->render());
 
         return view($this->template)->with($this->vars);
     }
 
-    final private function siteLocales()
+    final protected function siteLocales()
     {
         return view('includes.select-locales')->with('locales',config('settings.SiteLocales'))->render();
     }

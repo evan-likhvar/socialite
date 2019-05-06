@@ -28,6 +28,7 @@ return [
 
     'login_title' => 'Логін',
     'remember_me_checkbox' => 'Запамятати мене',
-    'login_button' => 'Ввійти',
+    'login_button' => 'Увійти',
+    'logout_button' => 'Вийти',
     'forgot_your_password_button' => 'Забули пароль?',
 ];

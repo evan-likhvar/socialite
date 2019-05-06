@@ -1,18 +1,6 @@
-<div class="uk-section uk-section-muted uk-padding-remove-vertical">
-{{--    <div class="uk-container">--}}
-{{--        <div class="uk-tile uk-tile-muted uk-padding-small">--}}
-
-{{--            <form id="change-l" action="{{ route('change-locale') }}" method="POST">--}}
-{{--                @csrf--}}
-{{--                {!!$locales!!}--}}
-{{--            </form>--}}
-
-
-{{--        </div>--}}
-{{--    </div>--}}
-
+<div class="uk-section uk-section-primary uk-padding-remove-vertical">
     <div class="uk-container">
-        <div class="uk-tile uk-tile-muted uk-padding-small">
+        <div class="uk-tile uk-tile-primary uk-padding-small">
 
             <div class="uk-grid-small uk-child-width-expand@s" uk-grid>
                 <div>
@@ -25,17 +13,22 @@
                     <h2>{{ __('unrestricted-top-block.site_name') }}</h2>
                 </div>
                 <div>
-                    <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
-                        <div class="uk-inline">
-                            <a class="uk-link-text uk-position-center" href="">{{ __('unrestricted-top-block.encounters') }}</a>
-                        </div>
-                        <div class="uk-inline">
-                            <a class="uk-link-text uk-position-center"  href="">{{ __('unrestricted-top-block.people_nearby') }}</a>
-                        </div>
-                        <div>
-                            <a class="uk-button uk-button-default" href="#">{{ __('unrestricted-top-block.sign_in') }}</a>
-                        </div>
-                    </div>
+                    @guest
+                        <a class="uk-dark uk-button uk-button-primary uk-button-small uk-border-rounded"
+                           href="#">{{ __('unrestricted-top-block.join') }}</a>
+                        {{ __('unrestricted-top-block.or') }}
+                        <a class="uk-button uk-button-default uk-button-small uk-border-rounded"
+                           href="#">{{ __('auth.login_button') }}</a>
+                    @endguest
+                    @auth
+                        <a class="uk-dark uk-button uk-button-primary uk-button-small uk-border-rounded" href="{{ route('logout') }}"
+                           onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                            {{ __('auth.logout_button') }}
+                        </a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
+                    @endauth
                 </div>
             </div>
         </div>
