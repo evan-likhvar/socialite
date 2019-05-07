@@ -16,5 +16,9 @@ Route::middleware(['guest'])->group(function () {
     Route::post('/password/email','Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
     Route::post('/password/reset','Auth\ResetPasswordController@reset')->name('password.update');
 
-
+});
+Route::middleware(['auth'])->group(function () {
+    Route::get('/email/resend','Auth\VerificationController@resend')->middleware(['throttle:6,1'])->name('verification.resend');
+    Route::get('/email/verify/{id}','Auth\VerificationController@verify')->middleware(['signed','throttle:6,1'])->name('verification.verify');
+    Route::get('/email/verify','Auth\VerificationController@show')->name('verification.notice');
 });

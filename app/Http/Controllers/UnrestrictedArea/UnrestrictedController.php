@@ -14,7 +14,6 @@ class UnrestrictedController extends Controller
 
     protected function renderOutput()
     {
-        //dd($this->vars);
         $this->vars = Arr::add($this->vars, 'bottom', view('unrestrictedArea.bottom.bottom')->with('locales', $this->siteLocales())->render());
 
         return view($this->template)->with($this->vars);

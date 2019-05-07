@@ -1,10 +1,6 @@
 <?php
 
-//Auth::routes();
+//Auth::routes(['verify' => true]);
 
 
-Route::get('/person-space', function () {
-    app()->setLocale('ru');
-    return view('person-space.app');
-});
-
+Route::get('/encounters', 'RestrictedArea\EncounterController@start');
