@@ -3,7 +3,7 @@
         <div>
             <div class="uk-tile uk-tile-muted">
 
-                <form method="POST" action="{{ route('login') }}">
+                <form method="POST" action="{{ route('login.post') }}">
                     @csrf
                     <fieldset class="uk-fieldset">
 
@@ -49,7 +49,7 @@
         </div>
         <div>
             <div class="uk-tile uk-tile-muted">
-                <form method="POST" action="{{ route('register') }}" uk-grid>
+                <form method="POST" action="{{ route('register.post') }}" uk-grid>
                     @csrf
                     <fieldset class="uk-fieldset uk-width-1-1">
 

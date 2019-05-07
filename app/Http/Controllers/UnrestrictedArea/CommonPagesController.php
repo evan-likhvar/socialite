@@ -57,6 +57,13 @@ class CommonPagesController extends UnrestrictedController
         return $this->preRenderOutput();
     }
 
+    public function showResetForm($token)
+    {
+        $this->vars = Arr::add($this->vars, 'content', view('unrestrictedArea.contents.auth.show-link-request-form')->with('token',$token)->render());
+
+        return $this->preRenderOutput();
+    }
+
     private function preRenderOutput()
     {
         $this->vars = Arr::add($this->vars, 'navigation', view('unrestrictedArea.topBlock.top2')->with('locales', $this->siteLocales())->render());

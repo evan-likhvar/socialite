@@ -9,7 +9,7 @@
 
 @section('form')
     <div>
-        <form class="uk-form-horizontal" method="POST" action="{{ route('login_post') }}" uk-grid>
+        <form class="uk-form-horizontal" method="POST" action="{{ route('login.post') }}" uk-grid>
             @csrf
             <fieldset class="uk-fieldset uk-width-1-1">
 

@@ -22,7 +22,7 @@
                 @yield('form')
 
             </div>
-            @if(Route::currentRouteName() != 'password.request')
+            @if(!(Route::currentRouteName() == 'password.request' || Route::currentRouteName() == 'password.reset'))
 
                 <div class="uk-width-auto@m uk-padding-remove">
                     <div>
@@ -37,7 +37,7 @@
 
             <div class="uk-width-1-4@m uk-padding-remove">
                 <div>
-                    @if(Route::currentRouteName() != 'password.request')
+                    @if(!(Route::currentRouteName() == 'password.request' || Route::currentRouteName() == 'password.reset'))
 
                         <p uk-margin>
                             <a class="uk-button uk-button-default uk-border-rounded" href="#">Facebook</a><br/>
