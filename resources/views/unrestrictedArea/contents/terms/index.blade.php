@@ -1,5 +1,5 @@
 <div class="uk-container">
-    <div class="uk-tile uk-tile-default" uk-height-viewport="expand: true">
-        terms index
+    <div class="uk-tile uk-tile-default uk-text-justify" uk-height-viewport="expand: true">
+        {!! __('static-terms.content') !!}
     </div>
 </div>

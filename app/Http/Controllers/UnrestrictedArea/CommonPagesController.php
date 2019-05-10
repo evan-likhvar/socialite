@@ -38,28 +38,28 @@ class CommonPagesController extends UnrestrictedController
 
     public function showLoginForm()
     {
-        $this->vars = Arr::add($this->vars, 'content', view('unrestrictedArea.contents.auth.login-form')->render());
+        $this->vars = Arr::add($this->vars, 'content', view('auth.login-form')->render());
 
         return $this->preRenderOutput();
     }
 
     public function showRegisterForm()
     {
-        $this->vars = Arr::add($this->vars, 'content', view('unrestrictedArea.contents.auth.register-form')->render());
+        $this->vars = Arr::add($this->vars, 'content', view('auth.register-form')->render());
 
         return $this->preRenderOutput();
     }
 
     public function showLinkRequestForm()
     {
-        $this->vars = Arr::add($this->vars, 'content', view('unrestrictedArea.contents.auth.link-request-form')->render());
+        $this->vars = Arr::add($this->vars, 'content', view('auth.link-request-form')->render());
 
         return $this->preRenderOutput();
     }
 
     public function showResetForm($token)
     {
-        $this->vars = Arr::add($this->vars, 'content', view('unrestrictedArea.contents.auth.show-link-request-form')->with('token',$token)->render());
+        $this->vars = Arr::add($this->vars, 'content', view('auth.show-link-request-form')->with('token',$token)->render());
 
         return $this->preRenderOutput();
     }

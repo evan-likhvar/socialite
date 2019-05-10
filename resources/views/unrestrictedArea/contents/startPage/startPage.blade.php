@@ -2,32 +2,29 @@
     <div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center" uk-grid>
         <div>
             <div class="uk-tile uk-tile-muted">
-
                 <form method="POST" action="{{ route('login.post') }}">
                     @csrf
                     <fieldset class="uk-fieldset">
-
                         <legend class="uk-legend">{{ __('auth.login_title') }}</legend>
-                        <p uk-margin>
-                            <a class="uk-button uk-button-default" href="#">Google</a>
-                            <a class="uk-button uk-button-default" href="#">LinkIn</a>
-                        </p>
-                        <div class="uk-margin">
-                            <input id="login_email" type="email" class="uk-input"
-                                   placeholder="{{ __('auth.email_placeholder') }}"
-                                   name="email" value="{{ old('email') }}" required autocomplete="email">
-                            @if ($errors->has('email'))
-                                <span><strong>{{ $errors->first('email') }}</strong></span>
-                            @endif
-                        </div>
 
+                        <div class="uk-grid uk-padding-small">
+                            <div class="uk-width-1-1@m">
+                                <div class="uk-flex uk-flex-center">
+                                    <div class="uk-width-1-3 uk-padding-small">@include('includes.svg.yandex')</div>
+                                    <div class="uk-width-1-3 uk-padding-small">@include('includes.svg.odnoklassniki')</div>
+                                    <div class="uk-width-1-3 uk-padding-small">@include('includes.svg.msn')</div>
+                                    <div class="uk-width-1-3 uk-padding-small">@include('includes.svg.google')</div>
+                                    <div class="uk-width-1-3 uk-padding-small">@include('includes.svg.facebook')</div>
+                                    <div class="uk-width-1-3 uk-padding-small">@include('includes.svg.mail-ru')</div>
+                                    <div class="uk-width-1-3 uk-padding-small">@include('includes.svg.vkontakte')</div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="uk-margin">
-                            <input id="login_password" type="password" class="uk-input"
-                                   placeholder="{{ __('auth.password_placeholder') }}"
-                                   name="password" value="{{ old('password') }}" required autocomplete="new-password">
-                            @if ($errors->has('password'))
-                                <span><strong>{{ $errors->first('password') }}</strong></span>
-                            @endif
+                            @include('includes.form-blocks.user-email')
+                        </div>
+                        <div class="uk-margin">
+                            @include('includes.form-blocks.user-password')
                         </div>
                         <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
                             <label>
@@ -43,8 +40,6 @@
                         @endif
                     </fieldset>
                 </form>
-
-
             </div>
         </div>
         <div>
@@ -52,28 +47,13 @@
                 <form method="POST" action="{{ route('register.post') }}" uk-grid>
                     @csrf
                     <fieldset class="uk-fieldset uk-width-1-1">
-
                         <legend class="uk-legend">{{ __('auth.registration_title') }}</legend>
-
                         <div class="uk-margin">
-                            <input id="name" type="text" class="uk-input"
-                                   placeholder="{{ __('auth.name_placeholder') }}"
-                                   name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
-                            @if ($errors->has('name'))
-                                <span><strong>{{ $errors->first('name') }}</strong></span>
-                            @endif
+                            @include('includes.form-blocks.user-name')
                         </div>
-
                         <div class="uk-margin">
-                            <input id="email" type="email" class="uk-input"
-                                   placeholder="{{ __('auth.email_placeholder') }}"
-                                   name="email" value="{{ old('email') }}" required autocomplete="email">
-                            @if ($errors->has('email'))
-                                <span><strong>{{ $errors->first('email') }}</strong></span>
-                            @endif
+                            @include('includes.form-blocks.user-email')
                         </div>
-
-
                         <div class="uk-grid">
                             <div class="uk-width-1-4@m">
                                 <select class="uk-select">
@@ -101,28 +81,14 @@
                                 </select>
                             </div>
                         </div>
-
-
                         <div class="uk-margin">
-                            <input id="password" type="password" class="uk-input"
-                                   placeholder="{{ __('auth.password_placeholder') }}"
-                                   name="password" value="{{ old('password') }}" required autocomplete="new-password">
-                            @if ($errors->has('password'))
-                                <span><strong>{{ $errors->first('password') }}</strong></span>
-                            @endif
+                            @include('includes.form-blocks.user-password')
                         </div>
-
                         <div class="uk-margin">
-                            <input id="password-confirm" type="password" class="uk-input"
-                                   placeholder="{{ __('auth.password_confirm_placeholder') }}"
-                                   name="password_confirmation" value="{{ old('password') }}" required
-                                   autocomplete="new-password">
+                            @include('includes.form-blocks.user-password-confirm')
                         </div>
-
                         <button class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom"> {{ __('auth.register_button') }}</button>
                     </fieldset>
-
-
                 </form>
             </div>
         </div>

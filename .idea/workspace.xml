@@ -2,14 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="786154e7-9e5a-4c29-88cf-f16dac23dfb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/evan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Service/StorageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/static-about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/static-help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/static-privacy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/static-terms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ru/static-about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ru/static-help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ru/static-privacy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ru/static-terms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/layouts/unrestricted-area/auth.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/register-login-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/form-blocks/user-email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/form-blocks/user-gender.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/form-blocks/user-location.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/form-blocks/user-name.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/form-blocks/user-password-confirm.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/form-blocks/user-password.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/svg/facebook.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/svg/google.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/svg/mail-ru.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/svg/msn.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/svg/odnoklassniki.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/svg/vkontakte.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/includes/svg/yandex.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/restrictedArea/template/template.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cache/gert.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/cache/w3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UnrestrictedArea/UnrestrictedController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UnrestrictedArea/UnrestrictedController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/___auth/app.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/__layouts/app.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/person-space/app.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/EncounterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/EncounterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/RestrictedController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/RestrictedController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UnrestrictedArea/CommonPagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UnrestrictedArea/CommonPagesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/about/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/about/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/layouts/restricted-area/auth.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/link-request-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/link-request-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/login-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/register-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/show-link-request-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/show-link-request-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/help/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/help/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/privacy/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/privacy/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/startPage/startPage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/startPage/startPage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/terms/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/terms/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/unrestrictedArea/topBlock/top.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/unrestrictedArea/topBlock/top.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,53 +56,44 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/RestrictedController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="26" />
-              <folding>
-                <element signature="e#55#83#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/EncounterController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/startPage/startPage.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="238">
+              <caret line="17" column="104" selection-start-line="17" selection-start-column="104" selection-end-line="17" selection-end-column="104" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/layout/layout.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/layouts/unrestricted-area/auth.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="10" column="14" selection-start-line="10" selection-end-line="11" />
+            <state relative-caret-position="694">
+              <caret line="57" column="6" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/register-form.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="778">
+              <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/layouts/restricted-area/auth.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -79,57 +106,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/resources/js/app.js" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
-        <option value="$PROJECT_DIR$/config/settings.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Service/ChangeLocaleController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/SetLocale.php" />
-        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/routes/socialite-web-service.php" />
-        <option value="$PROJECT_DIR$/resources/views/includes/select-locales.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/template/template.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/startPage/startPage.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/layout/layout.blade.php" />
-        <option value="$PROJECT_DIR$/resources/lang/en/unrestricted-bottom-block.php" />
-        <option value="$PROJECT_DIR$/resources/lang/ru/unrestricted-bottom-block.php" />
-        <option value="$PROJECT_DIR$/resources/lang/ua/unrestricted-bottom-block.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/bottom/bottom.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UnrestrictedArea/StartPageController.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/about/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/help/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/privacy/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/terms/index.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web-socialite-unrestricted-area.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/register/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/topBlock/top2.blade.php" />
-        <option value="$PROJECT_DIR$/resources/lang/en/unrestricted-top-block.php" />
-        <option value="$PROJECT_DIR$/resources/lang/ru/unrestricted-top-block.php" />
-        <option value="$PROJECT_DIR$/resources/lang/ua/unrestricted-top-block.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/register.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/topBlock/top.blade.php" />
-        <option value="$PROJECT_DIR$/resources/lang/en/auth.php" />
         <option value="$PROJECT_DIR$/resources/lang/ua/auth.php" />
         <option value="$PROJECT_DIR$/resources/lang/ru/auth.php" />
         <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/register-form.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/startPage/startPage.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/login-form.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/show-login-form.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/link-request-form.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/show-link-request-form.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UnrestrictedArea/CommonPagesController.php" />
         <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/auth.blade.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/routes/auth.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UnrestrictedArea/UnrestrictedController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/EncounterController.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/RestrictedController.php" />
+        <option value="$PROJECT_DIR$/resources/views/restrictedArea/template/template.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Service/StorageController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UnrestrictedArea/CommonPagesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/svg/mail-ru.blade" />
+        <option value="$PROJECT_DIR$/resources/views/includes/svg/mail-ru.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/svg/yandex.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/svg/odnoklasniki.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/svg/msn.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/svg/google.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/svg/facebook.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/svg/vkontakte.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/layouts/restricted-area/auth.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/form-blocks/user-name.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/form-blocks/user-email.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/link-request-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/form-blocks/user-password.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/form-blocks/user-password-confirm.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/show-link-request-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/form-blocks/user-gender.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/form-blocks/user-location.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register-login-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/static/about.php" />
+        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/about/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/help/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/privacy/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/terms/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/static-help.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/static-privacy.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/static-terms.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/topBlock/top.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/layouts/unrestricted-area/auth.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/startPage/startPage.blade.php" />
       </list>
     </option>
   </component>
@@ -240,6 +267,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,6 +291,30 @@
               <item name="socialite" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="unrestricted-area" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="unrestrictedArea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -271,7 +323,24 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="unrestrictedArea" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="unrestrictedArea" type="462c0819:PsiDirectoryNode" />
+              <item name="contents" type="462c0819:PsiDirectoryNode" />
+              <item name="startPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="unrestrictedArea" type="462c0819:PsiDirectoryNode" />
+              <item name="topBlock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
@@ -282,29 +351,31 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/restrictedArea/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/ru" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/restrictedArea/layout" />
-      <recent name="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth" />
-      <recent name="$PROJECT_DIR$/resources/lang/en" />
-      <recent name="$PROJECT_DIR$/resources/views/unrestrictedArea/contents" />
-      <recent name="$PROJECT_DIR$/routes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/lang/en" />
+      <recent name="$PROJECT_DIR$/resources/views/auth/layouts/unrestricted-area" />
+      <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/unrestrictedArea/contents" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Auth" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/lang/ru" />
+      <recent name="$PROJECT_DIR$/resources/lang/en" />
+      <recent name="$PROJECT_DIR$/resources/views/includes/form-blocks" />
+      <recent name="$PROJECT_DIR$/resources/views/includes/svg" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -363,18 +434,19 @@
       <workItem from="1556874140679" duration="11628000" />
       <workItem from="1557124097066" duration="617000" />
       <workItem from="1557125815212" duration="20933000" />
-      <workItem from="1557208496761" duration="14844000" />
+      <workItem from="1557208496761" duration="15644000" />
+      <workItem from="1557467375225" duration="20897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95726000" />
+    <option name="totallyTimeSpent" value="117423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3889" y="-2" width="1871" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49844238" visible="true" weight="0.28376162" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49844238" visible="true" weight="0.32586113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.50155765" side_tool="true" weight="0.26189175" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -433,234 +505,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/unrestricted-bottom-block.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/validation.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/register.php" />
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/unrestricted-top-block.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/ru/unrestricted-top-block.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/ua/unrestricted-top-block.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/___login.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/template/template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/___register.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/topBlock/top.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" column="93" selection-start-line="23" selection-start-column="93" selection-end-line="23" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/ua/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/ru/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/topBlock/top2.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/startPage/startPage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/login-form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="1118" selection-start-line="1118" selection-end-line="1118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/register-form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources_original/views/auth/verify.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources_original/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources_original/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources_original/views/auth/passwords/email.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="10" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources_original/views/auth/passwords/reset.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="10" selection-end-line="58" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/show-link-request-form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/link-request-form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="29" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/auth/auth.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#23#63#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1375">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ValidateSignature.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -675,16 +519,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UnrestrictedArea/StartPageController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/select-locales.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/person-space/app.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/layout/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="210">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="14" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/cache/w3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/cache/gert.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/RestrictedController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#55#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Service/StorageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/EncounterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#55#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/template/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UnrestrictedArea/UnrestrictedController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
+        <state relative-caret-position="364">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#57#93#0#PHP" expanded="true" />
@@ -692,68 +587,273 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/select-locales.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UnrestrictedArea/StartPageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="238">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UnrestrictedArea/CommonPagesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="834">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/RestrictedController.php">
+    <entry file="file://$PROJECT_DIR$/resources/lang/ua/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="504">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/svg/yandex.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="529" selection-start-column="512" selection-end-column="532" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/svg/odnoklassniki.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="765" selection-start-column="748" selection-end-column="769" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/svg/msn.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="886" selection-start-column="886" selection-end-column="886" />
           <folding>
-            <element signature="e#55#83#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#svg#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/person-space/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/svg/google.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="599" selection-start-column="599" selection-end-column="599" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/svg/facebook.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="271" lean-forward="true" selection-start-column="271" selection-end-column="271" />
+          <folding>
+            <element signature="n#style#0;n#path#0;n#svg#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/svg/mail-ru.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="726" selection-start-column="710" selection-end-column="730" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/svg/vkontakte.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="857" selection-start-column="857" selection-end-column="857" />
+          <folding>
+            <element signature="n#style#0;n#path#0;n#svg#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web-socialite-unrestricted-area.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" column="34" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/EncounterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/layout/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="14" selection-start-line="10" selection-end-line="11" />
+        <state relative-caret-position="28">
+          <caret line="2" column="79" lean-forward="true" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="168">
+          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/form-blocks/user-name.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/form-blocks/user-email.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/link-request-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/form-blocks/user-password.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/form-blocks/user-gender.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/form-blocks/user-location.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/show-link-request-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/form-blocks/user-password-confirm.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register-login-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="76" column="11" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+          <folding>
+            <element signature="e#971#2491#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/auth.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/static-about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/about/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="47" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/help/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/privacy/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/terms/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/static-help.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/static-privacy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/static-terms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/ru/static-about.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/topBlock/top.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="101" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/layouts/unrestricted-area/auth.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="57" column="6" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/layouts/restricted-area/auth.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/startPage/startPage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="104" selection-start-line="17" selection-start-column="104" selection-end-line="17" selection-end-column="104" />
         </state>
       </provider>
     </entry>

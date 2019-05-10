@@ -9,21 +9,24 @@
 </head>
 <body>
 <div class="uk-container">
-    <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
-        <div class="uk-width-1-3@m">
-            <div>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-            </div>
+    <div class="--uk-grid-divider uk-child-width-expand@s uk-padding-remove" uk-grid>
+        <div class="uk-width-1-4@m uk-padding-remove uk-text-small">
+
+            @yield('leftSide')
+
         </div>
-        <div>
-            <div class="uk-section">
+        <div class="uk-padding-remove">
+            <div class="uk-section uk-padding-small">
                 <div class="uk-container">form</div>
             </div>
-            <div class="uk-section">
-                <div class="uk-container">content</div>
+            <div class="uk-section uk-padding-small">
+                <div class="uk-container">
+                    <img src="/storage/w3.png"></div>
             </div>
             <div class="uk-section">
-                <div class="uk-container">bottom</div>
+                <div class="uk-section uk-section-muted uk-padding-remove-vertical">
+                    @yield('bottom')
+                </div>
             </div>
         </div>
     </div>

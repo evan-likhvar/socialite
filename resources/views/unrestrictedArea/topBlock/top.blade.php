@@ -15,10 +15,10 @@
                 <div>
                     <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
                         <div class="uk-inline">
-                            <a class="uk-link-text uk-position-center" href="">{{ __('unrestricted-top-block.encounters') }}</a>
+                            <a class="uk-link-text uk-position-center" href="{{route('encounters')}}">{{ __('unrestricted-top-block.encounters') }}</a>
                         </div>
                         <div class="uk-inline">
-                            <a class="uk-link-text uk-position-center"  href="">{{ __('unrestricted-top-block.people_nearby') }}</a>
+                            <a class="uk-link-text uk-position-center"  href="{{route('encounters')}}">{{ __('unrestricted-top-block.people_nearby') }}</a>
                         </div>
                         <div>
                             <a class="uk-button uk-button-default" href="{{ route('login') }}">{{ __('auth.login_button') }}</a>

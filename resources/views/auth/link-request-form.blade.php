@@ -1,4 +1,4 @@
-@extends('unrestrictedArea.contents.auth.auth')
+@extends('auth.layouts.unrestricted-area.auth')
 
 @section('form_title')
     <div>
@@ -21,12 +21,7 @@
                     <div class="uk-margin">
                         <label class="uk-form-label" for="form-horizontal-text">{{ __('auth.email') }}</label>
                         <div class="uk-form-controls">
-                            <input id="email" type="email" class="uk-input uk-border-rounded"
-                                   placeholder="{{ __('auth.email_placeholder') }}"
-                                   name="email" value="{{ old('email') }}" required autocomplete="email">
-                            @if ($errors->has('email'))
-                                <span><strong>{{ $errors->first('email') }}</strong></span>
-                            @endif
+                            @include('includes.form-blocks.user-email')
                         </div>
                     </div>
 

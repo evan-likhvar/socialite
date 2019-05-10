@@ -36,20 +36,18 @@
             @endif
 
             <div class="uk-width-1-4@m uk-padding-remove">
-                <div>
+
                     @if(!(Route::currentRouteName() == 'password.request' || Route::currentRouteName() == 'password.reset'))
+                    <div class="uk-width-1-5@m uk-padding-remove">
 
-                        <p uk-margin>
-                            <a class="uk-button uk-button-default uk-border-rounded" href="#">Facebook</a><br/>
-                            <a class="uk-button uk-button-default uk-border-rounded" href="#">Vkontakte</a><br/>
-                            <a class="uk-button uk-button-default uk-border-rounded" href="#">Mail.ru</a><br/>
-                            <a class="uk-button uk-button-default uk-border-rounded" href="#">Google</a><br/>
-                            <a class="uk-button uk-button-default uk-border-rounded" href="#">MSN</a><br/>
-                            <a class="uk-button uk-button-default uk-border-rounded" href="#">Одноклпсники</a><br/>
-                            <a class="uk-button uk-button-default uk-border-rounded" href="#">Яндекс</a><br/>
-                            <a class="uk-button uk-button-default uk-border-rounded" href="#">LinkId</a>
-
-                        </p>
+                            <div class="uk-width-1-1 uk-padding-small uk-padding-remove-right">@include('includes.svg.mail-ru')</div>
+                            <div class="uk-width-1-1 uk-padding-small uk-padding-remove-right">@include('includes.svg.yandex')</div>
+                            <div class="uk-width-1-1  uk-padding-small uk-padding-remove-right">@include('includes.svg.odnoklassniki')</div>
+                            <div class="uk-width-1-1  uk-padding-small uk-padding-remove-right">@include('includes.svg.msn')</div>
+                            <div class="uk-width-1-1  uk-padding-small uk-padding-remove-right">@include('includes.svg.google')</div>
+                            <div class="uk-width-1-1  uk-padding-small uk-padding-remove-right">@include('includes.svg.facebook')</div>
+                            <div class="uk-width-1-1  uk-padding-small uk-padding-remove-right">@include('includes.svg.vkontakte')</div>
+                    </div>
                     @endif
 
                 </div>

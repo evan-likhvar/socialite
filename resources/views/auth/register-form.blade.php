@@ -1,11 +1,10 @@
-@extends('unrestrictedArea.contents.auth.auth')
+@extends('auth.layouts.unrestricted-area.auth')
 
 @section('form_title')
     <div>
         <h2>{{ __('auth.registration_title_register') }}</h2>
     </div>
 @endsection
-
 
 @section('form')
     <div>
@@ -16,12 +15,7 @@
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-horizontal-text">{{ __('auth.name') }}</label>
                     <div class="uk-form-controls">
-                        <input id="name" type="text" class="uk-input uk-border-rounded"
-                               placeholder="{{ __('auth.name_placeholder') }}"
-                               name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
-                        @if ($errors->has('name'))
-                            <span><strong>{{ $errors->first('name') }}</strong></span>
-                        @endif
+                        @include('includes.form-blocks.user-name')
                     </div>
                 </div>
 
@@ -61,63 +55,43 @@
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-horizontal-text">{{ __('auth.your_city') }}</label>
                     <div class="uk-form-controls">
-                        <input id="name" type="text" class="uk-input uk-border-rounded"
-                               placeholder="{{ __('auth.your_city_placeholder') }}"
-                               name="user_location" value="{{ old('user_location') }}" required autocomplete="user_location">
-                        @if ($errors->has('user_location'))
-                            <span><strong>{{ $errors->first('user_location') }}</strong></span>
-                        @endif
+                        @include('includes.form-blocks.user-location')
                     </div>
                 </div>
 
                 <div class="uk-margin">
                     <div class="uk-form-label">{{ __('auth.gender') }}</div>
                     <div class="uk-form-controls uk-form-controls-text">
-                        <label><input class="uk-radio" type="radio" name="radio1"> {{ __('auth.gender_male') }}</label>
-                        <label><input class="uk-radio" type="radio" name="radio1">{{ __('auth.gender_female') }}</label>
+                        @include('includes.form-blocks.user-gender')
                     </div>
                 </div>
-
 
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-horizontal-text">{{ __('auth.email') }}</label>
                     <div class="uk-form-controls">
-                        <input id="email" type="email" class="uk-input uk-border-rounded"
-                               placeholder="{{ __('auth.email_placeholder') }}"
-                               name="email" value="{{ old('email') }}" required autocomplete="email">
-                        @if ($errors->has('email'))
-                            <span><strong>{{ $errors->first('email') }}</strong></span>
-                        @endif
+                        @include('includes.form-blocks.user-email')
                     </div>
                 </div>
 
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-horizontal-text">{{ __('auth.password') }}</label>
                     <div class="uk-form-controls">
-                        <input id="password" type="password" class="uk-input uk-border-rounded"
-                               placeholder="{{ __('auth.password_placeholder') }}"
-                               name="password" value="{{ old('password') }}" required
-                               autocomplete="new-password">
-                        @if ($errors->has('password'))
-                            <span><strong>{{ $errors->first('password') }}</strong></span>
-                        @endif
+                        @include('includes.form-blocks.user-password')
                     </div>
                 </div>
 
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-horizontal-text">{{ __('auth.password_confirm') }}</label>
                     <div class="uk-form-controls">
-                        <input id="password-confirm" type="password" class="uk-input uk-border-rounded"
-                               placeholder="{{ __('auth.password_confirm_placeholder') }}"
-                               name="password_confirmation" value="{{ old('password') }}" required
-                               autocomplete="new-password">
+                        @include('includes.form-blocks.user-password-confirm')
                     </div>
                 </div>
 
                 <button class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom"> {{ __('auth.register_button') }}</button>
             </fieldset>
         </form>
-        <br/><br/>{!!  __('auth.registration_polices', ['terms' => route('terms'),'privacy' => route('privacy'),'cookies' => route('privacy')]) !!}
-
+        <div class="uk-text-small">
+        <br/>{!!  __('auth.registration_polices', ['terms' => route('terms'),'privacy' => route('privacy'),'cookies' => route('privacy')]) !!}
+        </div>
     </div>
 @endsection
