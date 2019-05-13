@@ -2,7 +2,7 @@
 
 return [
 
-    'RedirectIfAuthenticatedPath' => '/person-space',
+    'RedirectIfAuthenticatedPath' => '/encounters',
 
     'SiteLocales'=>['en','ru','ua'],
     'DefaultLocale'=>'ru',

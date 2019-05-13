@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'site_name' =>'наш сайт',
+    'site_name' =>'pick up now',
     'encounters' => 'знакомства',
     'people_nearby' => 'люди рядом',
     'join' => 'Зарегистрироваться',

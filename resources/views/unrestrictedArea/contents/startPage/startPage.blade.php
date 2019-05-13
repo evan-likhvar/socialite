@@ -1,7 +1,7 @@
-<div class="uk-container">
-    <div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center" uk-grid>
+<div class="uk-container start-page">
+    <div class="uk-child-width-1-2@s uk-grid-collapse uk-text-center uk-border-rounded uk-box-shadow-large" uk-grid>
         <div>
-            <div class="uk-tile uk-tile-muted">
+            <div class="uk-tile uk-tile-muted uk-border-rounded">
                 <form method="POST" action="{{ route('login.post') }}">
                     @csrf
                     <fieldset class="uk-fieldset">
@@ -43,7 +43,7 @@
             </div>
         </div>
         <div>
-            <div class="uk-tile uk-tile-muted">
+            <div class="uk-tile uk-tile-muted uk-border-rounded">
                 <form method="POST" action="{{ route('register.post') }}" uk-grid>
                     @csrf
                     <fieldset class="uk-fieldset uk-width-1-1">

@@ -1,0 +1,57 @@
+
+
+
+
+  .start-page::before {
+  position: absolute;
+  top: -145px;
+  left: 0;
+  width: 100%;
+  min-height: 365px;
+  height: 50vh;
+  content: '';
+  background: #7000e3 url(/img/header.jpg);
+  background-repeat: repeat-x;
+  background-size: auto 420px;
+  transition: background .4s;
+  background-position-y: bottom;
+  background-position-x: center;
+}
+
+.start-page-top {
+  z-index: 1;
+}
+
+a {
+  text-decoration: none !important;
+  text-transform: capitalize;
+}
+
+a.start-page-top-link, a.start-page-top-link:not(hover) {
+  text-transform: capitalize;
+  color: #ffffff !important;
+}
+
+a.start-page-top-link:hover {
+  color: red !important;
+}
+
+.start-page-top-button-text{
+  color: white !important;
+}
+
+  .logo1{
+    font-family: 'Akronim', cursive !important;
+    //font-weight: bold;
+    font-size: 300%;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+  }
+
+  .logo2 {
+    font-family: "Akronim", cursive !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: $global-primary-background;
+  }

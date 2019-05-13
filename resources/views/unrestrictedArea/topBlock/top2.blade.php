@@ -9,7 +9,7 @@
                     </form>
                 </div>
                 <div class="uk-text-center">
-                    <h2>{{ __('unrestricted-top-block.site_name') }}</h2>
+                    <h2 class="logo1"><a href="{{route('start')}}">{{ __('unrestricted-top-block.site_name') }}</a> </h2>
                 </div>
                 <div>
                     @guest

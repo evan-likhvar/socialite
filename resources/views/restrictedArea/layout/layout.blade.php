@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Akronim|Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
@@ -24,7 +25,7 @@
                     <img src="/storage/w3.png"></div>
             </div>
             <div class="uk-section">
-                <div class="uk-section uk-section-muted uk-padding-remove-vertical">
+                <div class="uk-section uk-section-default uk-padding-remove-vertical">
                     @yield('bottom')
                 </div>
             </div>

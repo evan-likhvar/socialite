@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'site_name' => 'our site',
+    'site_name' =>'pick up now',
     'encounters' => 'encounters',
     'people_nearby' => 'people nearby',
     'join' => 'join',

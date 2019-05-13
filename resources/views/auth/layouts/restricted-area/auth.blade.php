@@ -1,6 +1,7 @@
 <div class="uk-container">
+
     <div class="uk-tile uk-tile-default uk-padding-small uk-text-center">
-        <p class="uk-h3"><a href="{{route('start')}}">{{ __('unrestricted-top-block.site_name') }}</a></p>
+        <h2><a href="{{route('start')}}"> <span class="logo2">{{ __('unrestricted-top-block.site_name') }} </span></a> </h2>
     </div>
 
     <div class="uk-tile uk-tile-default uk-padding-small uk-text-center">
