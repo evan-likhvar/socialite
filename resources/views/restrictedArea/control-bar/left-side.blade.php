@@ -1,12 +1,15 @@
 <div class="uk-tile uk-tile-default uk-padding-small uk-text-center">
     <h2><a href="{{route('start')}}"><span class="logo2"> {{ __('unrestricted-top-block.site_name') }}</span></a> </h2>
 </div>
+<hr class="uk-divider-icon uk-margin-remove">
 
 @include('restrictedArea.control-bar.profile-block.profile-public')
+<hr class="uk-divider-icon uk-margin-remove">
 
 @include('restrictedArea.control-bar.menu-block.menu')
 
 
+<hr class="uk-divider-icon uk-margin-remove">
 
 <div class="uk-tile uk-tile-default uk-padding-small uk-text-center">
     <ul class="uk-thumbnav" uk-margin>
