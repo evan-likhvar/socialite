@@ -46,8 +46,6 @@ class ImageRepository
             'main' => 0,
         ]);
 
-        //todo create gallery for image
-
         Storage::makeDirectory("{$this->param->imagesPath}/{$this->user->id}/{$this->param->imageCacheSuffix}");
         ImageResize::imageMakeResize(
             config('filesystems.disks.local.root') . '/' . $path,
@@ -55,12 +53,31 @@ class ImageRepository
             pathinfo(config('filesystems.disks.local.root') . '/' . $path, PATHINFO_DIRNAME) . "/" . $this->param->imageCacheSuffix);
 
 
-        dd($image, storage_path(), config('filesystems.disks.local.root'), $path, $hashName, $image->getMimeType(), explode('/', $image->getMimeType())[1], $image->getClientOriginalName());
+        //dd($image, storage_path(), config('filesystems.disks.local.root'), $path, $hashName, $image->getMimeType(), explode('/', $image->getMimeType())[1], $image->getClientOriginalName());
+    }
+
+    public function deleteImage(string $hashName, string $userId)
+    {
+        $model = UserImage::where('user_id', $userId)->where('image_hash_name', $hashName)->first();
+        if (!$model) throw new \Exception('Image model not found');
+        if ($model->main == 1) throw new \Exception('Can\'t delete main image');
+
+        DB::transaction(function () use($model,$userId,$hashName){
+            $model->delete();
+            Storage::delete("{$this->param->imagesPath}/$userId/$hashName");
+
+            $sizes = array_keys($this->param->resize);
+            array_walk($sizes,function (&$value) use ($userId,$hashName){
+                $name = explode('.', $hashName)[0] . "_$value" . '.' . explode('.', $hashName)[1];
+                $value = "{$this->param->imagesPath}/{$userId}/{$this->param->imageCacheSuffix}/$name";
+            });
+            Storage::delete($sizes);
+        }, 2);
     }
 
     public function getPathToStoredImage(string $userPath, string $fileName, string $size)
     {
-        $name = explode('.',$fileName)[0]."_$size".'.'.explode('.',$fileName)[1];
+        $name = explode('.', $fileName)[0] . "_$size" . '.' . explode('.', $fileName)[1];
 
         return "app/{$this->param->imagesPath}/{$userPath}/{$this->param->imageCacheSuffix}/$name";
     }

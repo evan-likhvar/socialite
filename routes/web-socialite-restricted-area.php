@@ -6,3 +6,5 @@
     ->namespace($this->namespace.'\RestrictedArea')*/
 
 Route::post('image-upload', 'ImageController@imageUpload')->name('image.upload');
+
+

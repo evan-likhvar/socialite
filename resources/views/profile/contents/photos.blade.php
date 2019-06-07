@@ -1,28 +1,29 @@
 <div class="uk-container">
-    <div class="uk-child-width-1-3@s" uk-grid>
-        <div>
-            <div class="uk-card uk-card-default uk-card-small uk-card-body">
-                <h3 class="uk-card-title">Small</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
+    <div class="uk-section uk-padding-small">
+        <div class="uk-container">
+
+            <div class="js-upload uk-placeholder uk-text-center">
+                <div id="js-mes"></div>
+                <span uk-icon="icon: cloud-upload"></span>
+                <span class="uk-text-middle">Attach binaries by dropping them here or</span>
+                <div uk-form-custom>
+                    <input type="file" multiple>
+                    <a class="uk-button uk-button-default" href="{{route('image.upload')}}">selecting</a>
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default uk-card-small uk-card-body">
-                <h3 class="uk-card-title">Large</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-            </div>
+
+            <progress id="js-progressbar" class="uk-progress" value="0" max="100" hidden></progress>
+
         </div>
     </div>
-
-    <div class="uk-h3">Slide</div>
-    <div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: slide">
+    <div class="uk-child-width-1-4@m" uk-grid uk-lightbox="animation: slide">
         @foreach($user->images as $image)
             <div>
                 <a class="uk-inline" href="{{route('profile.gallery.image',[$image->image_hash_name])}}" data-caption="Caption 1">
-                    <img src="{{route('profile.gallery.image',[$image->image_hash_name])}}" alt="">
+                    <img src="{{route('profile.gallery.image',[$image->image_hash_name,'L'])}}" alt="">
                 </a>
+                <span>@include('profile.contents.includes.delete-image-form')
+                    Span for image's actions</span>
             </div>
         @endforeach
     </div>

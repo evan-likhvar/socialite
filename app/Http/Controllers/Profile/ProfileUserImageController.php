@@ -2,13 +2,40 @@
 
 namespace App\Http\Controllers\Profile;
 
+use App\Repositories\UserImages\ImageRepository;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Arr;
 
-class ProfileController extends Controller
+class ProfileUserImageController extends Controller
 {
-    protected $template = 'profile.template.template';
+    private $imageRepository;
+
+    public function __construct()
+    {
+        parent::__construct();
+        $this->imageRepository = new ImageRepository();
+    }
+
+    public function deleteImage(Request $request)
+    {
+        try{
+            $this->imageRepository->deleteImage($request->input('name'),$this->user->id);
+        } catch (\Exception $exception) {
+            return 'Error was raised '.$exception->getMessage();
+        }
+
+        return redirect()->back();
+    }
+
+    public function setMainImage(Request $request)
+    {
+        return 'image set as the main image';
+    }
+    public function setTogglePublicPrivateImage(Request $request)
+    {
+        return 'image access changed';
+    }
+/*    protected $template = 'profile.template.template';
 
     protected $vars;
 
@@ -37,5 +64,5 @@ class ProfileController extends Controller
         $this->vars = Arr::add($this->vars, 'bottom', view('unrestrictedArea.bottom.bottom'));
 
         return view($this->template)->with($this->vars);
-    }
+    }*/
 }
