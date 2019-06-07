@@ -36,6 +36,7 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapAuthRoutes();
         $this->mapServiceRoutes();
         $this->mapUnrestrictedAreaRoutes();
+        $this->mapRestrictedAreaRoutes();
     }
 
     protected function mapWebRoutes()
@@ -64,6 +65,14 @@ class RouteServiceProvider extends ServiceProvider
         Route::middleware(['web','locale'])
             ->namespace($this->namespace.'\UnrestrictedArea')
             ->group(base_path('routes/web-socialite-unrestricted-area.php'));
+    }
+
+    protected function mapRestrictedAreaRoutes()
+    {
+        Route::middleware(['web','locale','auth'])
+            ->prefix('protected')
+            ->namespace($this->namespace.'\RestrictedArea')
+            ->group(base_path('routes/web-socialite-restricted-area.php'));
     }
 
     /**

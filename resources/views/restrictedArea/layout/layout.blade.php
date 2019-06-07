@@ -22,7 +22,7 @@
             </div>
             <div class="uk-section uk-padding-small">
                 <div class="uk-container">
-                    <img src="/storage/w3.png"></div>
+                    <img src="{{route('profile.main.image')}}"></div>
             </div>
             <div class="uk-section">
                 <div class="uk-section uk-section-default uk-padding-remove-vertical">
