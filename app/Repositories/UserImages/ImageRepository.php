@@ -30,6 +30,10 @@ class ImageRepository
         $this->param = new ImageParam();
     }
 
+    /**
+     * @param UploadedFile $image
+     * @param User $user
+     */
     public function createImageForUser(UploadedFile $image, User $user)
     {
         $this->image = $image;
@@ -41,7 +45,7 @@ class ImageRepository
             'user_id' => $this->user->id,
             'image_user_name' => pathinfo($image->getClientOriginalName(), PATHINFO_FILENAME) . '.' . explode('/', $image->getMimeType())[1],
             'image_hash_name' => $hashName,
-            'unproved' => 0,
+            'confirmed' => 0,
             'public' => 0,
             'main' => 0,
         ]);
@@ -56,23 +60,56 @@ class ImageRepository
         //dd($image, storage_path(), config('filesystems.disks.local.root'), $path, $hashName, $image->getMimeType(), explode('/', $image->getMimeType())[1], $image->getClientOriginalName());
     }
 
-    public function deleteImage(string $hashName, string $userId)
+    /**
+     * @param string $hashName
+     * @param string $userId
+     * @throws \Exception
+     */
+    public function deleteImage(string $hashName, string $userId): void
     {
         $model = UserImage::where('user_id', $userId)->where('image_hash_name', $hashName)->first();
         if (!$model) throw new \Exception('Image model not found');
-        if ($model->main == 1) throw new \Exception('Can\'t delete main image');
+        if ($model->main == 1) throw new \Exception('Can\'t delete the main image');
 
-        DB::transaction(function () use($model,$userId,$hashName){
+        DB::transaction(function () use ($model, $userId, $hashName) {
             $model->delete();
             Storage::delete("{$this->param->imagesPath}/$userId/$hashName");
 
             $sizes = array_keys($this->param->resize);
-            array_walk($sizes,function (&$value) use ($userId,$hashName){
+            array_walk($sizes, function (&$value) use ($userId, $hashName) {
                 $name = explode('.', $hashName)[0] . "_$value" . '.' . explode('.', $hashName)[1];
                 $value = "{$this->param->imagesPath}/{$userId}/{$this->param->imageCacheSuffix}/$name";
             });
             Storage::delete($sizes);
         }, 2);
+    }
+
+    /**
+     * @param string $hashName
+     * @param string $userId
+     * @throws \Exception
+     */
+    public function setMainImage(string $hashName, string $userId): void
+    {
+        $model = UserImage::where('user_id', $userId)->where('image_hash_name', $hashName)->first();
+        if (!$model) throw new \Exception('Image model not found');
+        if ($model->main == 1) throw new \Exception('Image already set as a main image');
+        if ($model->public != 1) throw new \Exception('The main image must have public access!');
+
+        DB::transaction(function () use ($model, $userId) {
+            DB::update("update user_images set main = 0 where user_id = '$userId'");
+            $model->main = 1;
+            $model->save();
+        }, 2);
+    }
+
+    public function toggleImageAccess(string $hashName, string $userId): void
+    {
+        $model = UserImage::where('user_id', $userId)->where('image_hash_name', $hashName)->first();
+        if (!$model) throw new \Exception('Image model not found');
+
+        $model->public = !$model->public;
+        $model->save();
     }
 
     public function getPathToStoredImage(string $userPath, string $fileName, string $size)

@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="786154e7-9e5a-4c29-88cf-f16dac23dfb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/set-main-image-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/togle-access-image-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/settings.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileUserImageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileUserImageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/UserImages/ImageRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/UserImages/ImageRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_29_111007_create_user_images_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_29_111007_create_user_images_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/contents/includes/delete-image-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/delete-image-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/contents/includes/set-main-image-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/set-main-image-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/contents/includes/togle-access-image-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/toggle-access-image-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/contents/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/contents/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/contents/photos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/contents/photos.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/layout/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web-socialite-restricted-area-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web-socialite-restricted-area-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,14 +51,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileUserImageController.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="e#48#96#0#PHP" expanded="true" />
-                <element signature="e#197#1095#0#PHP" />
-              </folding>
+            <state relative-caret-position="666">
+              <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/settings.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="820">
+              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -55,44 +71,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Repositories/UserImages/ImageRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="69" column="73" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
+            <state relative-caret-position="336">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/delete-image-form.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/profile/layout/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="616">
+              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+              <folding>
+                <element signature="e#1349#1472#0#Blade" />
+                <element signature="e#724#1925#0#Blade" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/set-main-image-form.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/togle-access-image-form.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web-socialite-restricted-area-profile.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="9" column="121" selection-start-line="9" selection-start-column="110" selection-end-line="9" selection-end-column="123" />
+            <state relative-caret-position="406">
+              <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -112,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/restrictedArea/controll-bar/left-side.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/RestrictedController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/EncounterController.php" />
         <option value="$PROJECT_DIR$/resources/views/restrictedArea/control-bar/profile-block/profile-public.php" />
         <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/contents/startPage/startPage.blade.php" />
@@ -140,29 +140,31 @@
         <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/app/Models/UserImage.php" />
         <option value="$PROJECT_DIR$/app/Repositories/UserImages/ImageParam.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_05_29_111007_create_user_images_table.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Repositories/UserImages/Image.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/ImageController.php" />
         <option value="$PROJECT_DIR$/app/Repositories/UserImages/ImageResizer.php" />
         <option value="$PROJECT_DIR$/app/Repositories/UserImages/ImageResize.php" />
-        <option value="$PROJECT_DIR$/resources/views/profile/contents/index.blade.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/config/images.php" />
         <option value="$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileController.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Service/StorageController.php" />
-        <option value="$PROJECT_DIR$/resources/views/profile/layout/layout.blade.php" />
         <option value="$PROJECT_DIR$/routes/web-socialite-restricted-area.php" />
         <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
-        <option value="$PROJECT_DIR$/resources/views/profile/contents/photos.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/delete-image-form.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web-socialite-restricted-area-profile.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileUserImageController.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/UserImages/ImageRepository.php" />
-        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/set-main-image-form.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/togle-access-image-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/photos.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileUserImageController.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/set-main-image-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/delete-image-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/toggle-access-image-form.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_29_111007_create_user_images_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/UserImages/ImageRepository.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/routes/web-socialite-restricted-area-profile.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileController.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/layout/layout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/settings.blade.php" />
       </list>
     </option>
   </component>
@@ -278,6 +280,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,6 +296,40 @@
             <path>
               <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
               <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="UserImages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -321,9 +358,15 @@
               <item name="socialite" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="restrictedArea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="restrictedArea" type="462c0819:PsiDirectoryNode" />
+              <item name="control-bar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
@@ -334,33 +377,32 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/profile/contents/includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/profile/contents" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/profile/contents/includes" />
-      <recent name="$PROJECT_DIR$/routes" />
-      <recent name="$PROJECT_DIR$/app/Http/Controllers/Profile" />
-      <recent name="$PROJECT_DIR$/resources/views/profile/contents" />
-      <recent name="$PROJECT_DIR$/app/Models" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/lang/en" />
       <recent name="$PROJECT_DIR$/resources/views/auth/layouts/unrestricted-area" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/unrestrictedArea/contents" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Auth" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/profile/contents" />
+      <recent name="$PROJECT_DIR$/resources/views/profile/contents/includes" />
+      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Profile" />
+      <recent name="$PROJECT_DIR$/app/Models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -461,18 +503,20 @@
       <workItem from="1559302499075" duration="8254000" />
       <workItem from="1559543118159" duration="19285000" />
       <workItem from="1559630386426" duration="1216000" />
-      <workItem from="1559905634933" duration="9710000" />
+      <workItem from="1559905634933" duration="9791000" />
+      <workItem from="1560149367360" duration="4689000" />
+      <workItem from="1560160736279" duration="7721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214571000" />
+    <option name="totallyTimeSpent" value="227062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3889" y="-2" width="1871" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67840374" visible="true" weight="0.24658284" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67840374" visible="true" weight="0.2520503" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.32159624" side_tool="true" weight="0.2821214" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -531,16 +575,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/UploadedFile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <element signature="e#35#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/532b2d90-aa4a-4061-bded-53be0b6910cc/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -555,13 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_29_111007_create_user_images_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -620,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -634,9 +654,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/JbHt0K5IPDdILsmF97kb_X.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/JbHt0K5IPDdILsmF97kb_X.jpeg" />
     <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/VjzUeseFgK55R6fv84AT_X.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -671,35 +689,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/eg9ZyBfn0PS0UcikwJST_M.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/eg9ZyBfn0PS0UcikwJST_S.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/eg9ZyBfn0PS0UcikwJST_L.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/JbHt0K5IPDdILsmF97kb_L.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/eg9ZyBfn0PS0UcikwJST_X.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile/layout/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/eg9ZyBfn0PS0UcikwJST_M.jpeg" />
+    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/eg9ZyBfn0PS0UcikwJST_S.jpeg" />
+    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/eg9ZyBfn0PS0UcikwJST_L.jpeg" />
+    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/JbHt0K5IPDdILsmF97kb_L.jpeg" />
+    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/eg9ZyBfn0PS0UcikwJST_X.jpeg" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Service/StorageController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
@@ -710,34 +704,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web-socialite-restricted-area.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#8#132#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="87" column="51" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/photos.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -757,47 +727,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileUserImageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="756">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#48#96#0#PHP" expanded="true" />
-            <element signature="e#197#1095#0#PHP" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/UserImages/ImageRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="69" column="73" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/delete-image-form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <caret line="4" column="141" selection-start-line="4" selection-start-column="141" selection-end-line="4" selection-end-column="141" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/set-main-image-form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="140">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/toggle-access-image-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_29_111007_create_user_images_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/UserImages/ImageRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web-socialite-restricted-area.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#8#132#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/photos.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web-socialite-restricted-area-profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="9" column="121" selection-start-line="9" selection-start-column="110" selection-end-line="9" selection-end-column="123" />
+        <state relative-caret-position="140">
+          <caret line="10" column="77" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="84" />
+          <folding>
+            <element signature="e#8#123#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/togle-access-image-form.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/layout/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="616">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="e#1349#1472#0#Blade" />
+            <element signature="e#724#1925#0#Blade" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/settings.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
         </state>
       </provider>
     </entry>

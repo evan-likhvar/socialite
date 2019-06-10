@@ -19,7 +19,7 @@ class CreateUserImagesTable extends Migration
             $table->string('image_user_name',100)->comment('real input name');
             $table->string('image_hash_name',25)->comment('real file name');
             //$table->string('image_temp_name',20)->nullable()->comment('for one-time request');
-            $table->boolean('unproved')->default(0);
+            $table->boolean('confirmed')->default(0);
             $table->boolean('public')->default(0);
             $table->boolean('main')->default(0);
             $table->timestamps();

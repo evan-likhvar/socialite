@@ -12,39 +12,62 @@
 <div class="uk-container">
     <div class="--uk-grid-divider uk-child-width-expand@s uk-padding-remove" uk-grid>
         <div class="uk-width-1-4@m uk-padding-remove uk-text-small">
-
             @yield('leftSide')
-
         </div>
+        <div>
+            <nav class="uk-navbar-container" uk-navbar>
+                <div class="uk-navbar-left">
 
-        <div class="uk-padding-remove">
-            <div class="uk-section">
-                <div class="uk-position-relative">
-                    <div class="uk-position-top">
-                        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                            <div class="uk-navbar-left">
-                                <ul class="uk-navbar-nav">
-                                    <li class="uk-active"><a href="{{route('profile')}}">My profile</a></li>
-                                    <li><a href="{{route('profile.photos')}}">My photo</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <div class="uk-section uk-padding-remove">
-                <div class="uk-width-1-1@m uk-padding-remove uk-text-small">
-
-                    @yield('content')
+                    <ul class="uk-navbar-nav">
+                        <li class="{{ Request::is('profile') ? 'uk-active' : '' }}"><a href="{{route('profile')}}">My
+                                profile</a></li>
+                        <li class="{{ Request::is('profile/photos') ? 'uk-active' : '' }}"><a
+                                    href="{{route('profile.photos')}}">My photo</a></li>
+                        <li class="{{ Request::is('profile/settings') ? 'uk-active' : '' }}"><a
+                                    href="{{route('profile.settings')}}">Settings</a></li>
+                    </ul>
 
                 </div>
-            </div>
-            <div class="uk-section">
+            </nav>
+            @yield('content')
                 <div class="uk-section uk-section-default uk-padding-remove-vertical">
                     @yield('bottom')
                 </div>
-            </div>
         </div>
+
+        {{--        <div class="uk-width-3-1@m uk-padding-remove uk-text-small">
+
+                    @yield('content')
+
+                </div>--}}
+        {{--        <div class="uk-padding-remove">
+                    <div class="uk-section">
+                        <div class="uk-position-relative">
+                            <div class="uk-position-top">
+                                <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                                    <div class="uk-navbar-left">
+                                        <ul class="uk-navbar-nav">
+                                            <li class="uk-active"><a href="{{route('profile')}}">My profile</a></li>
+                                            <li><a href="{{route('profile.photos')}}">My photo</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-section uk-padding-remove">
+                        <div class="uk-width-1-1@m uk-padding-remove uk-text-small">
+
+                            @yield('content')
+
+                        </div>
+                    </div>
+                    <div class="uk-section">
+                        <div class="uk-section uk-section-default uk-padding-remove-vertical">
+                            @yield('bottom')
+                        </div>
+                    </div>
+                </div>--}}
     </div>
 </div>
 <script src="{{ asset('js/app.js') }}" defer></script>
