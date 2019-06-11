@@ -1,4 +1,4 @@
-<div class="uk-tile uk-tile-muted uk-padding-small">
+<div class="uk-tile  uk-padding-small">
     <ul class="uk-list">
         <li>
             <div class="uk-grid-small" uk-grid>

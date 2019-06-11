@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="786154e7-9e5a-4c29-88cf-f16dac23dfb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileSettingsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/settings-accounts-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/settings-confidentiality-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/settings-confirmations-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/settings-images-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/settings-incognito-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/settings-languages-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/settings-main-info-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/settings-notifications-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/settings-payment-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web-socialite-restricted-area-profile-settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-images-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-interests-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-languages-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-location-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-main-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-personal-info-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-right-side.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-want-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-work-form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/contents/includes/delete-image-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/contents/includes/delete-image-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/form-blocks/user-name.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/form-blocks/user-name.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profile/contents/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/contents/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile/contents/settings.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/contents/settings.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profile/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profile/layout/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/restrictedArea/control-bar/menu-block/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/restrictedArea/control-bar/menu-block/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/restrictedArea/control-bar/profile-block/profile-public.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/restrictedArea/control-bar/profile-block/profile-public.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,59 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/template/template.blade.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/layout/layout.blade.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/template/template.blade.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/control-bar/left-side.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/control-bar/profile-block/profile-public.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/control-bar/menu-block/menu.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,19 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/settings.php" />
-        <option value="$PROJECT_DIR$/resources/views/unrestrictedArea/topBlock/top2.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/layouts/restricted-area/auth.blade.php" />
-        <option value="$PROJECT_DIR$/resources/sass/app-customize.scss" />
-        <option value="$PROJECT_DIR$/resources/views/restrictedArea/control-bar/menu-block/menu.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/restrictedArea/control-bar/left-side.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/profile/template/template.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/restrictedArea/control-bar/profile-block/profile-public.blade.php" />
-        <option value="$PROJECT_DIR$/../cryptopia/public/backend/js/app.js" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
-        <option value="$PROJECT_DIR$/routes/channels.php" />
-        <option value="$PROJECT_DIR$/routes/console.php" />
-        <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/app/Models/UserImage.php" />
         <option value="$PROJECT_DIR$/app/Repositories/UserImages/ImageParam.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
@@ -88,7 +126,6 @@
         <option value="$PROJECT_DIR$/app/Repositories/UserImages/ImageResizer.php" />
         <option value="$PROJECT_DIR$/app/Repositories/UserImages/ImageResize.php" />
         <option value="$PROJECT_DIR$/config/images.php" />
-        <option value="$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Service/StorageController.php" />
         <option value="$PROJECT_DIR$/routes/web-socialite-restricted-area.php" />
         <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/togle-access-image-form.blade.php" />
@@ -101,9 +138,7 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/routes/web-socialite-restricted-area-profile.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileController.php" />
-        <option value="$PROJECT_DIR$/resources/views/profile/layout/layout.blade.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/resources/views/profile/contents/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/delete-image-form.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Profile/ProfileSettingsController.php" />
         <option value="$PROJECT_DIR$/routes/web-socialite-restricted-area-profile-settings.php" />
@@ -118,6 +153,22 @@
         <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/settings-confirmations-form.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/settings-payment-form.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/profile/contents/settings.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-main-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-work-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-location-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-want-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-interests-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-languages-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-personal-info-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-images-form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/contents/includes/profile-right-side.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/layout/layout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/includes/form-blocks/user-name.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/restrictedArea/control-bar/left-side.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/restrictedArea/control-bar/profile-block/profile-public.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/restrictedArea/control-bar/menu-block/menu.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php" />
       </list>
     </option>
   </component>
@@ -255,22 +306,14 @@
               <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
               <item name="socialite" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
               <item name="socialite" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="socialite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="UserImages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
@@ -295,14 +338,6 @@
               <item name="socialite" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-              <item name="form-blocks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="socialite" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="profile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -311,16 +346,56 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="profile" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
               <item name="socialite" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="restrictedArea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="restrictedArea" type="462c0819:PsiDirectoryNode" />
+              <item name="control-bar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="restrictedArea" type="462c0819:PsiDirectoryNode" />
+              <item name="control-bar" type="462c0819:PsiDirectoryNode" />
+              <item name="menu-block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="restrictedArea" type="462c0819:PsiDirectoryNode" />
+              <item name="control-bar" type="462c0819:PsiDirectoryNode" />
+              <item name="profile-block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="restrictedArea" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socialite" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="restrictedArea" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
@@ -343,13 +418,15 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="unrestrictedArea" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="startPage" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="socialite" type="b2602c69:ProjectViewProjectNode" />
               <item name="socialite" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="unrestrictedArea" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -485,15 +562,16 @@
       <workItem from="1559905634933" duration="9791000" />
       <workItem from="1560149367360" duration="4689000" />
       <workItem from="1560160736279" duration="10346000" />
-      <workItem from="1560233026757" duration="6582000" />
+      <workItem from="1560233026757" duration="17880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236269000" />
+    <option name="totallyTimeSpent" value="247567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3889" y="-2" width="1871" height="1082" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67840374" visible="true" weight="0.25478405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -554,94 +632,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/storage/app/images/M.jpeg" />
-    <entry file="file://$PROJECT_DIR$/storage/app/images/S.jpeg" />
-    <entry file="file://$PROJECT_DIR$/app/Repositories/UserImages/ImageParam.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/VjzUeseFgK55R6fv84AT.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/VjzUeseFgK55R6fv84AT_L.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/VjzUeseFgK55R6fv84AT_M.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/VjzUeseFgK55R6fv84AT_S.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RestrictedArea/ImageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#55#103#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/JbHt0K5IPDdILsmF97kb_X.jpeg" />
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/VjzUeseFgK55R6fv84AT_X.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2019-06-03.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="1178" column="114" selection-start-line="1178" selection-start-column="114" selection-end-line="1178" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/UserImages/ImageResize.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <element signature="e#49#88#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/images.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/eg9ZyBfn0PS0UcikwJST_M.jpeg" />
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/eg9ZyBfn0PS0UcikwJST_S.jpeg" />
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/eg9ZyBfn0PS0UcikwJST_L.jpeg" />
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/JbHt0K5IPDdILsmF97kb_L.jpeg" />
-    <entry file="file://$PROJECT_DIR$/storage/app/images/98f080ee-cc98-4235-a3f6-e85f8677e369/cache/eg9ZyBfn0PS0UcikwJST_X.jpeg" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Service/StorageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/UserImage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -680,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/UserImages/ImageRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web-socialite-restricted-area.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -711,17 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile/layout/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="e#1349#1472#0#Blade" />
-            <element signature="e#724#1925#0#Blade" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web-socialite-restricted-area-profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -729,13 +701,6 @@
           <folding>
             <element signature="e#8#123#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="57" column="28" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -752,13 +717,6 @@
     <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/contents/startPage/startPage.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="596">
@@ -766,34 +724,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/includes/form-blocks/user-name.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/settings-accounts-form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/settings-notifications-form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1232">
           <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/settings-main-info-form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/settings-confidentiality-form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="43" column="112" lean-forward="true" selection-start-line="43" selection-start-column="112" selection-end-line="43" selection-end-column="112" />
         </state>
       </provider>
     </entry>
@@ -856,10 +790,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/settings.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/settings-confidentiality-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="43" column="112" lean-forward="true" selection-start-line="43" selection-start-column="112" selection-end-line="43" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/settings-accounts-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/profile-location-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/profile-want-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/profile-work-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="40" selection-start-line="9" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/profile-interests-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/profile-languages-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/profile-personal-info-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/UserImages/ImageRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="826">
-          <caret line="59" column="65" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/profile-images-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/profile-main-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="47" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/profile-right-side.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/layout/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/settings.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/contents/includes/settings-main-info-form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/form-blocks/user-email.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/form-blocks/user-gender.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/form-blocks/user-location.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/form-blocks/user-name.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/form-blocks/user-password.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/includes/form-blocks/user-password-confirm.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/template/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/unrestrictedArea/layout/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/template/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/control-bar/left-side.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/control-bar/profile-block/profile-public.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/control-bar/menu-block/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/restrictedArea/layout/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
         </state>
       </provider>
     </entry>

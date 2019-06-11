@@ -22,7 +22,19 @@
             </div>
             <div class="uk-section uk-padding-small">
                 <div class="uk-container">
-                    <img src="{{route('profile.main.image')}}"></div>
+                    <div class="uk-grid-small uk-child-width-expand@s uk-text-left" uk-grid>
+                        <div class="uk-width-3-5">
+                            <img src="{{route('profile.main.image')}}">
+                        </div>
+                        <div>
+                            <div class="uk-width-expand@m">
+                                <h4>Julia, 43</h4>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
             <div class="uk-section">
                 <div class="uk-section uk-section-default uk-padding-remove-vertical">
