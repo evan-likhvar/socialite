@@ -3,14 +3,25 @@
 
         <h3>{{$user->name}}, 44</h3>
 
-        <div class="uk-grid uk-child-width-1-3@m" uk-grid>
-            @foreach($user->images as $image)
-                <div class="uk-text-center">
-                    <img data-src="{{route('profile.gallery.image',[$image->image_hash_name,'M'])}}" width="200 px"
-                         height="200 px" alt="{{$image->image_user_name}}" uk-img>
+        <div class="uk-grid uk-child-width-1-5@m" uk-grid>
+            <div class="uk-text-center uk-padding-remove">
+                <a href="{{route('profile.photos')}}"><img data-src="{{route('profile.gallery.image',[$user->mainImage()->image_hash_name,'M'])}}" width="200 px"
+                     height="200 px" alt="{{$user->mainImage()->image_hash_name}}" uk-img></a>
+            </div>
+            @foreach($user->ordinaryImages()->slice(4) as $image)
+                <div class="uk-text-center uk-padding-remove">
+                    <a href="{{route('profile.photos')}}"><img data-src="{{route('profile.gallery.image',[$image->image_hash_name,'M'])}}" width="200 px"
+                         height="200 px" alt="{{$image->image_user_name}}" uk-img></a>
                 </div>
             @endforeach
         </div>
+
+
+    </div>
+</div>
+<div class="uk-section uk-section-default uk-section-xsmall">
+    <div class="uk-container">
+
         <div class="uk-grid uk-child-width-1-3@m" uk-grid>
             <div class="uk-text-center">
                 Популярнымть<br>
@@ -27,6 +38,7 @@
         </div>
         заповненеисть профилю
         <progress id="js-progressbar" class="uk-progress" value="10" max="100"></progress>
+
 
     </div>
 </div>

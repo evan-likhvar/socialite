@@ -38,6 +38,7 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapUnrestrictedAreaRoutes();
         $this->mapRestrictedAreaRoutes();
         $this->mapRestrictedAreaProfileRoutes();
+        $this->mapRestrictedAreaProfileSettingsRoutes();
     }
 
     protected function mapWebRoutes()
@@ -84,6 +85,13 @@ class RouteServiceProvider extends ServiceProvider
             ->group(base_path('routes/web-socialite-restricted-area-profile.php'));
     }
 
+    protected function mapRestrictedAreaProfileSettingsRoutes()
+    {
+        Route::middleware(['web','locale','auth'])
+            ->prefix('profile/settings')
+            ->namespace($this->namespace.'\Profile')
+            ->group(base_path('routes/web-socialite-restricted-area-profile-settings.php'));
+    }
     /**
      * Define the "api" routes for the application.
      *
